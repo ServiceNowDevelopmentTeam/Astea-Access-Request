@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Astea Access Request">8cb8e26a1b1478508c5143f3cc4bcb52</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>Wasim.Noor</sys_created_by>
+        <sys_created_on>2021-08-10 14:42:47</sys_created_on>
+        <sys_id>fe19e10bdb39f4d06be415ce3b9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Astea Access Request.SNC External</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_fe19e10bdb39f4d06be415ce3b9619a4</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>17e9cff0ef50000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_user_criteria_no_mtom_fe19e10bdb39f4d06be415ce3b9619a4</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Astea Access Request</previous_claim_name>
+        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 19:24:28</sys_created_on>
+        <sys_id>a2d7ceb11bdd81508c5143f3cc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>17e30eeab750000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_user_criteria_no_mtom_fe19e10bdb39f4d06be415ce3b9619a4</metadata_update_name>
+        <previous_claim_app_version>1.0.1</previous_claim_app_version>
+        <previous_claim_name>Cascading Approvals</previous_claim_name>
+        <previous_claim_scope>22668e5c1b53b45062e50ed2cd4bcbf0</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 19:24:28</sys_created_on>
+        <sys_id>66d7ceb11bdd81508c5143f3cc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+</record_update>

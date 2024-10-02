@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Choice Value">dd6a10111b9e01508c5143f3cc4bcbeb</decision_input>
+        <decision_table display_value="Astea Role Approvals">61f690911b5e01508c5143f3cc4bcbc8</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Choice Value</label>
+        <order>100</order>
+        <parent/>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-16 15:12:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>066ad0911b5e01508c5143f3cc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_066ad0911b5e01508c5143f3cc4bcbc1</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+</record_update>

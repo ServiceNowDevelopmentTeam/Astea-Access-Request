@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Astea Access Request">8cb8e26a1b1478508c5143f3cc4bcb52</catalog_item>
+        <catalog_variable>IO:62c850461b67e1508c5143f3cc4bcb96</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-21 18:42:50</sys_created_on>
+        <sys_id>831998461b67e1508c5143f3cc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>environment_select_all_that_apply_astea</sys_name>
+        <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_831998461b67e1508c5143f3cc4bcbab</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-21 18:42:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Initialize">d4154e2d1bd730108c5143f3cc4bcb71</ui_policy>
+        <variable>environment_select_all_that_apply_astea</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

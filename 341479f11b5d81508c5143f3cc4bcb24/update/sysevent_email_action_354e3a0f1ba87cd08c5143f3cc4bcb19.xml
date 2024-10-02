@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_req_item</collection>
+        <condition table="sc_req_item">state=3^variables.49ccea621b5478508c5143f3cc4bcb48=AXPROD^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="false" field="variables.49ccea621b5478508c5143f3cc4bcb48" goto="false" newquery="false" operator="=" or="false" value="AXPROD"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin-bottom: 8pt; line-height: 107%; font-family: Calibri; font-size: 11pt;"><span style="font-family: Calibri; font-size: 11.0000pt;">Dear&nbsp; ${requested_for.first_name}, </span></p>
+<p style="margin-bottom: 8pt; line-height: 107%; font-family: Calibri; font-size: 11pt;"><span style="font-family: Calibri; font-size: 11.0000pt;">You are now set up with access to Astea! Below is information on how to get started in the system.</span></p>
+<p style="margin-bottom: 8pt; line-height: 107%; font-family: Calibri; font-size: 11pt;"><strong><span style="font-family: Calibri; font-weight: bold; font-size: 11.0000pt;">Logging in:</span></strong></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Back Office URL:</strong> <a style="color: blue; text-decoration: underline;" href="https://api.astea.cloud/asteapublisher150/">https://api.astea.cloud/asteapublisher150/</a></p>
+<ul style="margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li style="margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Please make sure to complete this in <strong>Microsoft Edge</strong></li>
+<li style="margin: 0in 0in 0in 0px; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">Once you pull up the website, download the <strong>&ldquo;Employee&rdquo;</strong> portal<br /><br /></li>
+</ul>
+<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="color: #2e2e2e;">Mobile URL:</span></strong> <a style="color: blue; text-decoration: underline;" href="https://api.astea.cloud/AsteaMobileCustomizer/AXPROD/Field_Full/mobile/">https://api.astea.cloud/AsteaMobileCustomizer/AXPROD/Field_Full/mobile/</a></p>
+<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #2e2e2e;">&nbsp;</span></p>
+<ul style="margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li style="color: #2e2e2e;">See the <a style="color: blue; text-decoration: underline;" href="https://apigroup.service-now.com/kb_view.do?sysparm_article=KB0011353">Astea Access Quick Reference Guide (QRG)</a><span style="color: #2e2e2e;"> for additional details and scan codes</span></li>
+</ul>
+<p style="margin-bottom: 8pt; line-height: 107%; font-family: Calibri; font-size: 11pt;"><strong><span style="font-family: Calibri; font-weight: bold; font-size: 11.0000pt;">Your username is: <span style="font-family: Calibri; font-size: 11pt;">${variables.user_name_astea}</span></span></strong></p>
+<p style="margin-bottom: 8pt; line-height: 107%; font-family: Calibri; font-size: 11pt;"><strong><span style="font-family: Calibri; font-weight: bold; font-size: 11.0000pt;">Your temporary password is: <span style="font-family: Calibri; font-size: 11pt;">${variables.temporary_password}</span></span></strong></p>
+<ul style="margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li style="margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Make sure the drop down is set to <strong>AXPROD</strong></li>
+<li style="margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Upon logging in, you will be prompted to set up a new password.</li>
+<li style="margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">
+<ul style="list-style-type: circle; margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li style="list-style-type: none;">
+<ul style="list-style-type: circle; margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li>Password Requirements: 14 digits long and include an uppercase and lower-case letter</li>
+</ul>
+</li>
+</ul>
+<table style="width: 348px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 1.9375px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 1.9375px;">&nbsp;</td>
+<td style="width: 340.062px;"><img src="AXPROD.jpg" width="357" height="267" /></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Getting Started:</strong></p>
+<ul style="margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li style="margin: 0in 0in 8pt 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Click <a style="color: blue; text-decoration: underline;" href="https://apigroup.sabacloud.com/Saba/Web_spf/NA1PRD0062/app/shared;spf-url=pages%2Fpagelistview%2Fpgcnt000000000018743">Here</a> to watch the training videos in Saba (login with your email and network password)</li>
+</ul>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Getting Help:</strong></p>
+<ul style="margin-bottom: 0in; margin-top: 0px; list-style-position: inside;">
+<li style="margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Click <a style="color: blue; text-decoration: underline;" title="https://teams.microsoft.com/l/team/19%3afc099a4ff990499e929b401227b371fa%40thread.skype/conversations?groupId=0418c54b-3085-4df5-9774-2c15d4c5d05e&amp;tenantId=2af10afe-84c4-46b3-bfb5-5b2c870e6af7" href="https://teams.microsoft.com/l/team/19%3afc099a4ff990499e929b401227b371fa%40thread.skype/conversations?groupId=0418c54b-3085-4df5-9774-2c15d4c5d05e&amp;tenantId=2af10afe-84c4-46b3-bfb5-5b2c870e6af7" target="_blank" rel="noopener">Here</a> to be taken to the APi Service Community Teams page to access all QRG&rsquo;s. It is strongly encouraged that you sign up for the page to receive important notifications.</li>
+<li style="margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">If at any time you forget your password, please reach out to your branch Astea contact and they will assist with resetting your password</li>
+<li style="margin: 0in 0in 8pt 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">If you are experiencing technical issues with Astea, please <a style="color: blue; text-decoration: underline;" href="https://apigroup.service-now.com/sp">Report an Issue</a> in APi Connect to open an incident with Field Support.</li>
+</ul>
+<p><span style="font-family: Calibri; font-size: 11.0000pt;">${mail_script:attachmentPhysicalFile}</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Astea Request is close with AXPROD</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>request.requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Welcome to Astea!</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-06-09 17:50:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>354e3a0f1ba87cd08c5143f3cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Astea Request is close with AXPROD</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>sysevent_email_action_354e3a0f1ba87cd08c5143f3cc4bcb19</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>1816cec8b880000001</claim_timestamp>
+        <metadata_update_name>sysevent_email_action_354e3a0f1ba87cd08c5143f3cc4bcb19</metadata_update_name>
+        <previous_claim_app_version>1.1.6</previous_claim_app_version>
+        <previous_claim_name>Astea Access Request</previous_claim_name>
+        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-16 14:30:50</sys_created_on>
+        <sys_id>1233ce361b80d5508c5143f3cc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+</record_update>

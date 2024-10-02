@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Segment">b94060f41b5741d062e50ed2cd4bcbcb</decision_input>
+        <decision_table display_value="Astea Segment Approvals">3f6109191b5a41508c5143f3cc4bcb20</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Segment</label>
+        <order>200</order>
+        <parent/>
+        <reference display_value="Company" name="core_company">0c7468231b211010e7004229bc4bcbed</reference>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 19:23:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3140a4b41b5741d062e50ed2cd4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_3140a4b41b5741d062e50ed2cd4bcb8a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+        <type display_value="Reference">52a227c1bf3320001875647fcf07396a</type>
+    </sn_decision_table_decision_condition>
+</record_update>

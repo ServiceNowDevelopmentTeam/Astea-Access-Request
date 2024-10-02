@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="TC - 278 - Request - OneStream Approval - IT - REDIRECT">6b0e2ab41b910d108c5143f3cc4bcbf5</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>TC - 279 - Astea Access - Request - Astea Approval - IT</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-24 21:55:04</sys_created_on>
+        <sys_id>5f8d07381bd50d108c5143f3cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TC - 279 - Astea Access - Request - Astea Approval - IT</sys_name>
+        <sys_package display_value="Modular Notifications" source="9433631b1bcf30508c5143f3cc4bcbfc">9433631b1bcf30508c5143f3cc4bcbfc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>sys_atf_test_5f8d07381bd50d108c5143f3cc4bcb32</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=5f8d07381bd50d108c5143f3cc4bcb32"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>1808ba4ce540000001</claim_timestamp>
+        <metadata_update_name>sys_atf_test_5f8d07381bd50d108c5143f3cc4bcb32</metadata_update_name>
+        <previous_claim_app_version>1.1.4</previous_claim_app_version>
+        <previous_claim_name>Astea Access Request</previous_claim_name>
+        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 20:37:55</sys_created_on>
+        <sys_id>5e41b8bc1b5b41d062e50ed2cd4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>1808ba4ce3e0000001</claim_timestamp>
+        <metadata_update_name>sys_atf_test_5f8d07381bd50d108c5143f3cc4bcb32</metadata_update_name>
+        <previous_claim_app_version>1.4.3</previous_claim_app_version>
+        <previous_claim_name>Modular Notifications</previous_claim_name>
+        <previous_claim_scope>9433631b1bcf30508c5143f3cc4bcbfc</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 20:37:55</sys_created_on>
+        <sys_id>1241b8bc1b5b41d062e50ed2cd4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+</record_update>

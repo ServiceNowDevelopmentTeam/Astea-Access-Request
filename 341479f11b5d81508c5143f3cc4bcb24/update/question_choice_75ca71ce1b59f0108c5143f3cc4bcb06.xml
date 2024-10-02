@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Include in Dispatch Console?">3f4f61971b34fc50e7004229bc4bcbf9</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-07-13 16:54:56</sys_created_on>
+        <sys_id>75ca71ce1b59f0108c5143f3cc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>question_choice_75ca71ce1b59f0108c5143f3cc4bcb06</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+        <text>No</text>
+        <value>No</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=75ca71ce1b59f0108c5143f3cc4bcb06"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>75ca71ce1b59f0108c5143f3cc4bcb06</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-07-13 16:54:56</sys_created_on>
+        <sys_id>e1da71ce1b59f0108c5143f3cc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>APIDevUser</sys_updated_by>
+        <sys_updated_on>2021-07-13 16:54:56</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>75ca71ce1b59f0108c5143f3cc4bcb06</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-07-13 16:54:56</sys_created_on>
+        <sys_id>a9da71ce1b59f0108c5143f3cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>APIDevUser</sys_updated_by>
+        <sys_updated_on>2021-07-13 16:54:56</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>17e9cfc8f730000001</claim_timestamp>
+        <metadata_update_name>question_choice_75ca71ce1b59f0108c5143f3cc4bcb06</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Astea Access Request</previous_claim_name>
+        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 19:21:44</sys_created_on>
+        <sys_id>623702b11bdd81508c5143f3cc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>17e30eea7430000001</claim_timestamp>
+        <metadata_update_name>question_choice_75ca71ce1b59f0108c5143f3cc4bcb06</metadata_update_name>
+        <previous_claim_app_version>1.0.1</previous_claim_app_version>
+        <previous_claim_name>Cascading Approvals</previous_claim_name>
+        <previous_claim_scope>22668e5c1b53b45062e50ed2cd4bcbf0</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 19:21:44</sys_created_on>
+        <sys_id>263702b11bdd81508c5143f3cc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+</record_update>

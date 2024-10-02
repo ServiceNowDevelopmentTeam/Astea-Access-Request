@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_task</collection>
+        <condition>(current.request_item.variables.user_name_astea == '' || current.request_item.variables.temporary_password == '') &amp;&amp; (current.state != '111')</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_task">stateCHANGESTO3^ORstateCHANGESTO4^request_item.cat_item=8cb8e26a1b1478508c5143f3cc4bcb52^variablesHASITEMVARIABLE:8b8995f21b6cb8d08c5143f3cc4bcb10ISEMPTY^ORvariablesHASITEMVARIABLE:265bc2681ba478908c5143f3cc4bcbbaISEMPTY^variablesHASITEMVARIABLE:ef4aea2e1b1478508c5143f3cc4bcb8c=1^request_item.state!=54^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
+            <item display_table="sc_cat_item" display_value="Astea Access Request" endquery="false" field="request_item.cat_item" goto="false" newquery="false" operator="=" or="false" value="8cb8e26a1b1478508c5143f3cc4bcb52"/>
+            <item endquery="false" field="variables" goto="false" newquery="false" operator="HASITEMVARIABLE" or="false" value=":8b8995f21b6cb8d08c5143f3cc4bcb10ISEMPTY"/>
+            <item endquery="false" field="variables" goto="false" newquery="false" operator="HASITEMVARIABLE" or="true" value=":265bc2681ba478908c5143f3cc4bcbbaISEMPTY"/>
+            <item endquery="false" field="variables" goto="false" newquery="false" operator="HASITEMVARIABLE" or="false" value=":ef4aea2e1b1478508c5143f3cc4bcb8c=1"/>
+            <item display_value="Pending Approval" endquery="false" field="request_item.state" goto="false" newquery="false" operator="!=" or="false" value="54"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Astea User Pass Required</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	gs.log('runs rule!');
+	
+	//if ((current.request_item.variables.user_name_astea == '' || current.request_item.variables.temporary_password == '') && (current.state != '111')) {
+		current.setValue('state','111');
+		//current.update();
+		
+	
+	/*
+		var task = new GlideRecord('sc_task');
+		task.get(current.getUniqueValue());
+			
+		if(task.getValue('state') != '111'){
+			task.setValue('state','111');
+			task.update();
+		}*/
+		gs.setRedirect("/sc_task.do?sys_id=" + current.sys_id);
+	//}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-09-28 17:49:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09b9663a1bfe34108c5143f3cc4bcb20</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Astea User Pass Required</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>sys_script_09b9663a1bfe34108c5143f3cc4bcb20</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-04-20 17:38:56</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=09b9663a1bfe34108c5143f3cc4bcb20"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>17e9cf3af630000001</claim_timestamp>
+        <metadata_update_name>sys_script_09b9663a1bfe34108c5143f3cc4bcb20</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Astea Access Request</previous_claim_name>
+        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 19:12:02</sys_created_on>
+        <sys_id>e005ca7d1b9d81508c5143f3cc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+</record_update>

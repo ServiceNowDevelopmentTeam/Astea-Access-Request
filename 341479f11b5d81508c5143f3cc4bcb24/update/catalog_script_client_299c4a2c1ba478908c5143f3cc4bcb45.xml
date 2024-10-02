@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_catalog>false</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Astea Access Request">8cb8e26a1b1478508c5143f3cc4bcb52</cat_item>
+        <cat_variable>IO:ef4aea2e1b1478508c5143f3cc4bcb8c</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Show Temporary Password</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (newValue == '') {
+		return;
+	}
+
+
+	//Type appropriate comment here, and begin script below
+	g_form.setDisplay('temporary_password', true);
+	g_form.setDisplay('user_name_astea',true);
+	if (newValue == '1') {
+		if(g_form.getValue('state')=='2'){//state is work in progress
+			g_form.setMandatory('temporary_password', true);
+			g_form.setMandatory('user_name_astea',true);
+		}
+	} else {
+		g_form.setDisplay('temporary_password', false);
+		g_form.setDisplay('user_name_astea',false);
+
+		g_form.setMandatory('temporary_password', false);
+		g_form.setMandatory('user_name_astea',false);
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-06-01 19:36:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>299c4a2c1ba478908c5143f3cc4bcb45</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Show Temporary Password</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>catalog_script_client_299c4a2c1ba478908c5143f3cc4bcb45</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-04-11 17:57:00</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
+        <claim_timestamp>17e9cfed1360000001</claim_timestamp>
+        <metadata_update_name>catalog_script_client_299c4a2c1ba478908c5143f3cc4bcb45</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Astea Access Request</previous_claim_name>
+        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 19:24:12</sys_created_on>
+        <sys_id>eec78af11bdd81508c5143f3cc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
+    </sys_claim>
+</record_update>
