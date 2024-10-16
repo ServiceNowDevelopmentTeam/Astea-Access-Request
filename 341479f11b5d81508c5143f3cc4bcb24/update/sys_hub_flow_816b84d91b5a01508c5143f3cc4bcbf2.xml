@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>816b84d91b5a01508c5143f3cc4bcbf2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Astea Access Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
         <sys_update_name>sys_hub_flow_816b84d91b5a01508c5143f3cc4bcbf2</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-12 14:36:57</sys_updated_on>
+        <sys_updated_on>2024-10-02 22:02:37</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=816b84d91b5a01508c5143f3cc4bcbf2"/>
@@ -1305,18 +1305,6 @@ for provisioning instructions.^assignment_group={{90508c37-4ca3-4990-81a3-59bc8f
         <sys_updated_on>2024-09-08 14:28:09</sys_updated_on>
         <table>var__m_sys_hub_flow_input_1638e6b41b21e1508c5143f3cc4bcbb0</table>
         <value>{{2ce032e0-b7a5-47e0-872d-5668bc35f1f7.supervisor}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>495acf4197ac12d02e853cf3a253af03</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-09-08 14:28:09</sys_created_on>
-        <sys_id>515acf4197ac12d02e853cf3a253af14</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-08 14:28:09</sys_updated_on>
-        <table>var__m_sys_hub_sub_flow_instance_inputs_495acf4197ac12d02e853cf3a253af03</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_495acf4197ac12d02e853cf3a253af03^id=495acf4197ac12d02e853cf3a253af03"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=495acf4197ac12d02e853cf3a253af03^sys_idNOT INcd5acf4197ac12d02e853cf3a253af04"/>
@@ -5425,7 +5413,7 @@ for provisioning instructions.^assignment_group={{90508c37-4ca3-4990-81a3-59bc8f
         <sys_created_on>2022-03-16 14:20:51</sys_created_on>
         <sys_id>36ae4c9d1b9a01508c5143f3cc4bcb91</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
         <sys_policy/>
         <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
@@ -5448,7 +5436,7 @@ for provisioning instructions.^assignment_group={{90508c37-4ca3-4990-81a3-59bc8f
         <sys_created_on>2022-03-16 14:20:51</sys_created_on>
         <sys_id>feae4c9d1b9a01508c5143f3cc4bcb85</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
         <sys_policy/>
         <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
@@ -6811,18 +6799,6 @@ for provisioning instructions.^assignment_group={{90508c37-4ca3-4990-81a3-59bc8f
         <sys_updated_on>2024-09-08 14:29:49</sys_updated_on>
         <table>var__m_sys_hub_flow_input_1638e6b41b21e1508c5143f3cc4bcbb0</table>
         <value>{{2ce032e0-b7a5-47e0-872d-5668bc35f1f7.supervisor}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>61ba83c197ac12d02e853cf3a253aff8</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-09-08 14:29:49</sys_created_on>
-        <sys_id>a5bac3c197ac12d02e853cf3a253af07</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-08 14:29:49</sys_updated_on>
-        <table>var__m_sys_hub_sub_flow_instance_inputs_61ba83c197ac12d02e853cf3a253aff8</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_61ba83c197ac12d02e853cf3a253aff8^id=61ba83c197ac12d02e853cf3a253aff8"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=61ba83c197ac12d02e853cf3a253aff8^sys_idNOT IN61ba83c197ac12d02e853cf3a253aff9"/>
@@ -10931,7 +10907,7 @@ for provisioning instructions.^assignment_group={{90508c37-4ca3-4990-81a3-59bc8f
         <sys_created_on>2022-03-16 16:11:58</sys_created_on>
         <sys_id>3218a45d1b5241508c5143f3cc4bcb8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
         <sys_policy/>
         <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
@@ -10954,7 +10930,7 @@ for provisioning instructions.^assignment_group={{90508c37-4ca3-4990-81a3-59bc8f
         <sys_created_on>2022-03-16 16:11:59</sys_created_on>
         <sys_id>3618a45d1b5241508c5143f3cc4bcbb2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
         <sys_policy/>
         <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>

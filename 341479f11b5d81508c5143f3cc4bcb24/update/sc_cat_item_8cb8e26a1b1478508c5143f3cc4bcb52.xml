@@ -14,7 +14,7 @@
         <description><![CDATA[<p><span style="color: #ff0000; font-size: 12pt;">Please do not request Astea Access prior to Employee Master record being setup in Webapps or AX.</span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="REQF - Astea Access - C">816b84d91b5a01508c5143f3cc4bcbf2</flow_designer_flow>
+        <flow_designer_flow display_value="Astea Access Request">816b84d91b5a01508c5143f3cc4bcbf2</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -118,34 +118,6 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
-        <claim_timestamp>17e9cfc92e00000001</claim_timestamp>
-        <metadata_update_name>sc_cat_item_8cb8e26a1b1478508c5143f3cc4bcb52</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>Astea Access Request</previous_claim_name>
-        <previous_claim_scope>341479f11b5d81508c5143f3cc4bcb24</previous_claim_scope>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-01-27 19:21:45</sys_created_on>
-        <sys_id>b23702b11bdd81508c5143f3cc4bcb62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
-    </sys_claim>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</claim_owner_scope>
-        <claim_timestamp>17e30eeabbc0000001</claim_timestamp>
-        <metadata_update_name>sc_cat_item_8cb8e26a1b1478508c5143f3cc4bcb52</metadata_update_name>
-        <previous_claim_app_version>1.0.1</previous_claim_app_version>
-        <previous_claim_name>Cascading Approvals</previous_claim_name>
-        <previous_claim_scope>22668e5c1b53b45062e50ed2cd4bcbf0</previous_claim_scope>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-01-27 19:21:45</sys_created_on>
-        <sys_id>763702b11bdd81508c5143f3cc4bcb62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-05 19:12:38</sys_updated_on>
-    </sys_claim>
     <sys_translated_text action="delete_multiple" query="documentkey=8cb8e26a1b1478508c5143f3cc4bcb52"/>
     <fx_price action="delete_multiple" query="id=8cb8e26a1b1478508c5143f3cc4bcb52"/>
     <fx_price action="INSERT_OR_UPDATE">

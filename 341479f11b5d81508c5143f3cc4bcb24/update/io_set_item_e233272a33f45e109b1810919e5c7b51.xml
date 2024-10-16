@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <sc_cat_item display_value="Astea Access Request">8cb8e26a1b1478508c5143f3cc4bcb52</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-09-25 18:23:30</sys_created_on>
+        <sys_id>e233272a33f45e109b1810919e5c7b51</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request Method (integration).Astea Access Request</sys_name>
+        <sys_package display_value="Astea Access Request" source="341479f11b5d81508c5143f3cc4bcb24">341479f11b5d81508c5143f3cc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Astea Access Request">341479f11b5d81508c5143f3cc4bcb24</sys_scope>
+        <sys_update_name>io_set_item_e233272a33f45e109b1810919e5c7b51</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-09-25 18:24:34</sys_updated_on>
+        <variable_set display_value="Request Method (integration)">e9ebd2eafb38da10e070fff26eefdc33</variable_set>
+    </io_set_item>
+</record_update>
